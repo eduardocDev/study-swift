@@ -8,5 +8,5 @@ func stringIs(word: String) -> String {
     return "Is \(word)"
   }
 }
-
+print(stringIs(word: "Is Swift"))
 print(stringIs(word: "swift"))
