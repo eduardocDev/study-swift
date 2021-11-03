@@ -5,10 +5,12 @@ print("""
 """)
 var firstInput = readLine()
 var acumulaNota: [Int] = []
+var playAgain: Bool = false
 
 //Processing
-
+repeat{
 if firstInput! == "y" || firstInput! == "Y"{
+  
   //Question1
   print("Q1 - Qual o nome da capital da Italia -")
   let answer1 = readLine()
@@ -121,6 +123,11 @@ if firstInput! == "y" || firstInput! == "Y"{
   }else if sum <= 5{
     print("Sua nota foi muito baixa")
   }
-}else{
-  print("Bye")
+
+  print("Deseja jogar Novamente - para comfirmar digite y??")
+  let answerEnd = readLine()
+  if answerEnd! ==  "y"{
+    playAgain = true
+  }
 }
+}while playAgain
