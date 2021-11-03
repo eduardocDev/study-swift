@@ -3,7 +3,7 @@ let joken = ["stone","paper","scissor"]
 /*variables to receive the input of options:
 0 = stone, 1 = paper, 2 = scissor*/
 var p1 = joken[2]
-var p2 = joken[0]
+var p2 = joken[1]
 
 if (p1 == joken[1] && p2 == joken[0]) ||
 (p1 == joken[2] && p2 == joken[1]) ||

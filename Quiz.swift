@@ -27,7 +27,7 @@ if firstInput! == "y" || firstInput! == "Y"{
       print("Correto +1")
       acumulaNota.append(1)
     default:
-      print("Errado, a capital da italia é Roma")
+      print("Errado, a linha imaginaria que divide o globo norte e sul é a linha do equador")
   }
     //Question3
     print("Q3 - Qual lingua falada na Australia -")
