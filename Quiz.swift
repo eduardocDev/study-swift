@@ -128,6 +128,8 @@ if firstInput! == "y" || firstInput! == "Y"{
   let answerEnd = readLine()
   if answerEnd! ==  "y"{
     playAgain = true
+  }else{
+    playAgain = false
   }
 }
 }while playAgain
